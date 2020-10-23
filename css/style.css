@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.dropdown ul li {
+    width: 200px;
+    line-height: 30px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.dropdown ul {
+    position: absolute;
+}
+
+.dropdown ul:hover {
+    background-color: plum;
+}
+
+.dropdown ul ul {
+    display: none;    
+}
+
+.dropdown ul li:hover > ul {
+    display: block;
+}
+
+.dropdown ul li ul {
+    position: relative;
+    display: none;
+}
